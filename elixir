@@ -1,0 +1,6 @@
+---
+tags: [ elixir ]
+---
+
+# Run anything from shell
+mix run -e "..."

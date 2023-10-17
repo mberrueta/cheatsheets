@@ -118,3 +118,35 @@ nmap <F2> "= system("uuidgen")[:-2]<C-M>P
 # Delete every line that has a FOO in it. See `:help global`.
 # The _ in the d _ command ensures registers and clipboards are not changed.
 :g/FOO/d _
+
+# Copy the whole file to the clipboard
+:%y
+
+# Copy function
+va{Vy
+
+# Copy function Expand selection
+va{
+
+# Expand selection
+tbd
+
+# Add surrounding
+ysiw'  / ysiw" / ysiw(
+
+# Change "surrounding"
+cs'"  / cs"' / cs'<q>
+
+# Remove :delimiters
+ds"
+
+# String to atom
+<leader>a
+
+# Atom to :string
+<leader>b
+
+# Which leader
+
+# Which leader
+:echo mapleader
