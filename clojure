@@ -1,0 +1,13 @@
+# repl
+lein repl
+
+# load file $ user=> (load-file "yourfile.clj")
+(load-file "")
+
+# Load tests
+# (require '[clojure.test :refer [run-tests]])
+# (require 'your-ns.example-test :reload-all)
+(require '[clojure.test :refer [run-tests]]) (require 'xxxx)
+
+# Run test (run-tests 'your-ns.example-test)
+(run-tests 'xxxxx)
