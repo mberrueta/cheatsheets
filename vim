@@ -150,3 +150,20 @@ ds"
 
 # Which leader
 :echo mapleader
+
+# Make new cursor prev/next line
+g r   k/j
+
+# Make cursor next match
+g r n 
+
+# Remove all/last cursors
+g r   q/u
+
+# Move 1 line up/down
+:m -2 / 1 
+
+
+
+
+

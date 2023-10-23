@@ -130,3 +130,11 @@ S-j-b
 
 # Cancel actions
 C-g
+
+# Fold
+zc
+
+# Unfold
+zo
+
+
